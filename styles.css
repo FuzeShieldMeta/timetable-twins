@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  color: #333;
+}
+
+#calendar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.calendar-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-input-wrapper {
+  flex: 1;
+}
+
+.text-input-wrapper {
+  flex: 1;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="file"] {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+#add-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+#add-btn:hover {
+  background-color: #0056b3;
+}
+
+#submit-btn {
+  background-color: #28a745;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  font-weight: bold;
+}
+
+#submit-btn:hover {
+  background-color: #218838;
+}
